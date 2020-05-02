@@ -1,2 +1,2 @@
 # shortgames
-here are a few short games created by me in python
+here are a few short games created by me in Python
