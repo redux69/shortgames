@@ -10,13 +10,13 @@ class Paint(object):
     def __init__(self):
         self.root = Tk()
 
-        self.pen_button = Button(self.root, text='creion', command=self.use_pen)
+        self.pen_button = Button(self.root, text='pen', command=self.use_pen)
         self.pen_button.grid(row=0, column=0)
 
-        self.color_button = Button(self.root, text='culori', command=self.choose_color)
+        self.color_button = Button(self.root, text='collors', command=self.choose_color)
         self.color_button.grid(row=0, column=2)
 
-        self.eraser_button = Button(self.root, text='radiera', command=self.use_eraser)
+        self.eraser_button = Button(self.root, text='eraser', command=self.use_eraser)
         self.eraser_button.grid(row=0, column=3)
 
         self.choose_size_button = Scale(self.root, from_=1, to=10, orient=HORIZONTAL)
